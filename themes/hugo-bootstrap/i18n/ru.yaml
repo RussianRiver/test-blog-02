@@ -1,0 +1,26 @@
+- id: by
+  translation: "автор:"
+
+- id: tags
+  translation: "Метки"
+
+- id: categories
+  translation: "Кадегории"
+
+- id: readMore
+  translation: "Продолжить чтение →"
+
+- id: translations
+  translation: "Переводы"
+
+- id: related
+  translation: "Ver también"
+
+- id: recentPosts
+  translation: "Последние публикации"
+
+- id: backToTop
+  translation: "Веерх"
+
+- id: language
+  translation: "English/Русский"

@@ -1,0 +1,40 @@
+.blog-header, .blog-post, .blog-pagination {
+  margin-bottom: 2rem;
+}
+
+/*
+body {
+  background-color: yellow;
+  padding: 0.4rem;
+}
+
+div.row {
+  background-color: white;
+  padding: 0.4rem;
+}
+
+a {
+  color: green;
+}
+
+a:hover {
+  color: green;
+}
+
+a.badge-primary {
+  background-color: green;
+}
+
+a.badge-primary:hover {
+  background-color: green;
+  color: black;
+}
+
+a:hover.badge-primary {
+  background-color: green;
+  color: black;
+}
+
+code {
+  color: blue;
+}*/
