@@ -1,9 +1,12 @@
 <form method="POST" action="https://api.staticman.net/v2/entry/RussianRiver/test-blog-02/master/">
-    <input type="hidden" name="options[redirect]" value="{{ .Permalink }}#comment-submitted">
-    <input type="hidden" name="options[entryId]" value="{{ .UniqueID }}">
-    <input name="fields[name]" type="text" placeholder="Your name">
-    <input name="fields[email]" type="email" placeholder="Your email address">
-    <textarea name="fields[body]" placeholder="Your message. Feel free to use Markdown." rows="10"></textarea>
-    <input type="submit" value="Submit">
+  <input name="options[redirect]" type="hidden" value="https://rudzen.ru">
+  <!-- e.g. "2016-01-02-this-is-a-post" -->
+  <input name="options[slug]" type="hidden" value="{{ page.slug }}">
+  <label><input name="fields[name]" type="text">Name</label>
+  <label><input name="fields[email]" type="email">E-mail</label>
+  <label><textarea name="fields[message]"></textarea>Message</label>
+  
+  <button type="submit">Go!</button>
+    
   </form>
   
